@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive - Мої файли</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="drive-container">
+        <!-- Хедер -->
+        <header class="drive-header">
+            <h1>🗂️ Мій диск</h1>
+            <div class="user-info">
+                <span id="currentUser"></span>
+                <button id="logoutBtn" class="btn btn-secondary">Вийти</button>
+            </div>
+        </header>
+
+        <!-- Панель управління -->
+        <div class="controls">
+            <div class="upload-section">
+                <label for="fileInput" class="btn btn-primary">
+                    📤 Завантажити файл
+                </label>
+                <input type="file" id="fileInput" style="display: none;">
+                <span id="uploadStatus" class="upload-status"></span>
+            </div>
+
+            <div class="sync-section">
+                <label for="folderInput" class="btn btn-primary">
+                    📂 Синхронізувати папку
+                </label>
+                <input type="file" id="folderInput" webkitdirectory multiple style="display: none;">
+                <span id="syncStatus" class="upload-status"></span>
+            </div>
+
+            <div class="filter-section">
+                <label>
+                    <input type="radio" name="fileFilter" value="all" checked> Всі файли
+                </label>
+                <label>
+                    <input type="radio" name="fileFilter" value=".c"> Тільки .c
+                </label>
+                <label>
+                    <input type="radio" name="fileFilter" value=".jpg"> Тільки .jpg
+                </label>
+            </div>
+
+            <div class="sort-section">
+                <label for="sortOrder">Сортування за датою:</label>
+                <select id="sortOrder">
+                    <option value="desc">Від новіших до старіших</option>
+                    <option value="asc">Від старіших до новіших</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Drag & Drop зона -->
+        <div id="dropZone" class="drop-zone">
+            <p>📁 Перетягніть файли сюди для завантаження</p>
+            <p class="drop-hint">Підтримуються: .c, .jpg</p>
+        </div>
+
+        <!-- Налаштування колонок -->
+        <div class="column-settings">
+            <strong>Показати колонки:</strong>
+            <label>
+                <input type="checkbox" class="column-toggle" data-column="createdAt" checked> Дата створення
+            </label>
+            <label>
+                <input type="checkbox" class="column-toggle" data-column="modifiedAt" checked> Дата зміни
+            </label>
+            <label>
+                <input type="checkbox" class="column-toggle" data-column="uploadedBy" checked> Завантажив
+            </label>
+            <label>
+                <input type="checkbox" class="column-toggle" data-column="editedBy" checked> Редагував
+            </label>
+            <label>
+                <input type="checkbox" class="column-toggle" data-column="size" checked> Розмір
+            </label>
+        </div>
+
+        <!-- Таблиця файлів -->
+        <div class="files-container">
+            <table id="filesTable" class="files-table">
+                <thead>
+                    <tr>
+                        <th class="col-name">Ім'я файлу</th>
+                        <th class="col-createdAt">Дата створення</th>
+                        <th class="col-modifiedAt">Дата зміни</th>
+                        <th class="col-uploadedBy">Завантажив</th>
+                        <th class="col-editedBy">Редагував</th>
+                        <th class="col-size">Розмір</th>
+                        <th class="col-actions">Дії</th>
+                    </tr>
+                </thead>
+                <tbody id="filesTableBody">
+                    <tr>
+                        <td colspan="7" class="no-files">Завантажуємо файли...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Модальне вікно для перегляду -->
+        <div id="previewModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="previewTitle"></h2>
+                <div id="previewContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="drive.js"></script>
+</body>
+</html>

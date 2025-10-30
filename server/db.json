@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "1760973411939",
+      "username": "DASHA",
+      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "createdAt": "2025-10-20T15:16:51.940Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "1760973709296",
+      "userId": "1760973411939",
+      "originalName": "Photo-79.jpg",
+      "storedName": "1760973709229-Photo-79.jpg",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1760973709229-Photo-79.jpg",
+      "size": 9243293,
+      "type": ".jpg",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-10-20T15:21:49.296Z",
+      "modifiedAt": "2025-10-20T15:21:49.296Z"
+    },
+    {
+      "id": "1760974883241",
+      "userId": "1760973411939",
+      "originalName": "critical_thinking_Dudka.pdf",
+      "storedName": "1760974883230-critical_thinking_Dudka.pdf",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1760974883230-critical_thinking_Dudka.pdf",
+      "size": 193682,
+      "type": ".pdf",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-10-20T15:41:23.241Z",
+      "modifiedAt": "2025-10-20T15:41:23.241Z"
+    },
+    {
+      "id": "1760974956588",
+      "userId": "1760973411939",
+      "originalName": "A4 - 1.pdf",
+      "storedName": "1760974956568-A4 - 1.pdf",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1760974956568-A4 - 1.pdf",
+      "size": 707636,
+      "type": ".pdf",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-10-20T15:42:36.588Z",
+      "modifiedAt": "2025-10-20T15:42:36.588Z"
+    },
+    {
+      "id": "1760974966392",
+      "userId": "1760973411939",
+      "originalName": "Photo-286.jpg",
+      "storedName": "1760974966282-Photo-286.jpg",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1760974966282-Photo-286.jpg",
+      "size": 13035831,
+      "type": ".jpg",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-10-20T15:42:46.392Z",
+      "modifiedAt": "2025-10-20T15:42:46.392Z"
+    },
+    {
+      "id": "1760976085350",
+      "userId": "1760973411939",
+      "originalName": "PROGRAM.c",
+      "storedName": "1760976085343-PROGRAM.c",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1760976085343-PROGRAM.c",
+      "size": 86,
+      "type": ".c",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-10-20T16:01:25.350Z",
+      "modifiedAt": "2025-10-29T13:41:06.149Z"
+    },
+    {
+      "id": "1761207433424",
+      "userId": "1760973411939",
+      "originalName": "discovery_idea.pdf",
+      "storedName": "1761207433408-discovery_idea.pdf",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1761207433408-discovery_idea.pdf",
+      "size": 295252,
+      "type": ".pdf",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-10-23T08:17:13.424Z",
+      "modifiedAt": "2025-10-23T08:17:13.424Z"
+    },
+    {
+      "id": "1761745281605",
+      "userId": "1760973411939",
+      "originalName": "SWOT Ð°Ð½Ð°Ð»ÑÐ· Ð´Ð¾Ð´Ð°ÑÐºÑ Ð¾ÑÐ³Ð°Ð½ÑÐ·Ð°ÑÑÑ Ð²ÑÐ»ÑÐ½Ð¾Ð³Ð¾ ÑÐ°ÑÑ.html",
+      "storedName": "1761745281583-SWOT Ð°Ð½Ð°Ð»ÑÐ· Ð´Ð¾Ð´Ð°ÑÐºÑ Ð¾ÑÐ³Ð°Ð½ÑÐ·Ð°ÑÑÑ Ð²ÑÐ»ÑÐ½Ð¾Ð³Ð¾ ÑÐ°ÑÑ.html",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1761745281583-SWOT Ð°Ð½Ð°Ð»ÑÐ· Ð´Ð¾Ð´Ð°ÑÐºÑ Ð¾ÑÐ³Ð°Ð½ÑÐ·Ð°ÑÑÑ Ð²ÑÐ»ÑÐ½Ð¾Ð³Ð¾ ÑÐ°ÑÑ.html",
+      "size": 246943,
+      "type": ".html",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-10-29T13:41:21.605Z",
+      "modifiedAt": "2025-10-29T13:41:21.605Z"
+    }
+  ]
+}
