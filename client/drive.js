@@ -261,7 +261,7 @@ async function editFile(fileId) {
           });
           const resData = await res.json();
           if (resData.status === 'ok') {
-            statusEl.textContent = '✅ Збережено!';
+            statusEl.textContent = 'Збережено!';
             await loadFiles();
           } else {
             statusEl.textContent = `❌ ${resData.message}`;
@@ -296,7 +296,7 @@ function escapeHtml(text) {
 document.getElementById('fileInput').addEventListener('change', (e) => {
   const file = e.target.files[0];
   if (file) {
-    uploadFile(file); // ✅ Завантажуємо будь-що
+    uploadFile(file); // Завантажуємо будь-що
   }
   e.target.value = ''; // очищаємо input після завантаження
 });
@@ -314,7 +314,7 @@ document.getElementById('folderInput').addEventListener('change', async (e) => {
         await uploadFile(file); // використовує твою існуючу функцію uploadFile
     }
 
-    statusEl.textContent = '✅ Папку синхронізовано!';
+    statusEl.textContent = 'Папку синхронізовано!';
     statusEl.className = 'upload-status success';
     e.target.value = ''; // очищаємо вибір після завантаження
 });
@@ -340,7 +340,7 @@ dropZone.addEventListener('drop', (e) => {
   if (file) {
     const file = e.dataTransfer.files[0];
 if (file) {
-  uploadFile(file); // ✅ Завантажуємо будь-який тип
+  uploadFile(file); // Завантажуємо будь-який тип
 }
   }
 });

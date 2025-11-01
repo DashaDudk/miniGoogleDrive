@@ -58,9 +58,9 @@ app.use((err, req, res, next) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Сервер запущено на http://localhost:${PORT}`);
-  console.log(`📁 Uploads: ${uploadsDir}`);
-  console.log(`💾 Database: ${dbPath}`);
+  console.log(`Сервер запущено на http://localhost:${PORT}`);
+  console.log(`Uploads: ${uploadsDir}`);
+  console.log(`Database: ${dbPath}`);
 });
 
 module.exports = app;
