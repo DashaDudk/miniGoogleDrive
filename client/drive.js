@@ -205,7 +205,6 @@ async function previewFile(fileId) {
     const data = await response.json();
 
     if (data.status === 'ok') {
-      // 👇 ось цей блок вставляєш ЗАМІСТЬ старих if-ів
       if (file.originalName.endsWith('.c')) {
         // показуємо текст
         content.innerHTML = `<pre class="code-preview">${escapeHtml(data.content)}</pre>`;

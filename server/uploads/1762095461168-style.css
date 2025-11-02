@@ -1,0 +1,38 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 { color: #333; }
+button {
+  padding: 10px 20px;
+  margin: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 60%;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+
+th { background-color: #4CAF50; color: white; }
+td { text-align: center; }
+
+.high { background-color: #c8e6c9; }   /* зелений для високої задоволеності */
+.medium { background-color: #fff9c4; } /* жовтий для середньої */
+.low { background-color: #ffcdd2; }    /* червоний для низької */

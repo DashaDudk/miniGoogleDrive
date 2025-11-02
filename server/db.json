@@ -71,7 +71,7 @@
       "uploadedBy": "DASHA",
       "editedBy": "DASHA",
       "createdAt": "2025-10-20T16:01:25.350Z",
-      "modifiedAt": "2025-10-29T13:41:06.149Z"
+      "modifiedAt": "2025-11-02T14:46:50.111Z"
     },
     {
       "id": "1761207433424",
@@ -111,6 +111,84 @@
       "editedBy": "DASHA",
       "createdAt": "2025-11-01T08:35:33.955Z",
       "modifiedAt": "2025-11-01T08:35:33.955Z"
+    },
+    {
+      "id": "1762087724626",
+      "userId": "1760973411939",
+      "originalName": "palitter (2).png",
+      "storedName": "1762087724609-palitter (2).png",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1762087724609-palitter (2).png",
+      "size": 26548,
+      "type": ".png",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-11-02T12:48:44.626Z",
+      "modifiedAt": "2025-11-02T12:48:44.627Z"
+    },
+    {
+      "id": "1762093678532",
+      "userId": "1760973411939",
+      "originalName": "Image.jpg",
+      "storedName": "1762093678525-Image.jpg",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1762093678525-Image.jpg",
+      "size": 26177,
+      "type": ".jpg",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-11-02T14:27:58.532Z",
+      "modifiedAt": "2025-11-02T14:27:58.532Z"
+    },
+    {
+      "id": "1762095461057",
+      "userId": "1760973411939",
+      "originalName": "apartments.csv",
+      "storedName": "1762095461052-apartments.csv",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1762095461052-apartments.csv",
+      "size": 81,
+      "type": ".csv",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-11-02T14:57:41.057Z",
+      "modifiedAt": "2025-11-02T14:57:41.057Z"
+    },
+    {
+      "id": "1762095461092",
+      "userId": "1760973411939",
+      "originalName": "index.html",
+      "storedName": "1762095461088-index.html",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1762095461088-index.html",
+      "size": 876,
+      "type": ".html",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-11-02T14:57:41.093Z",
+      "modifiedAt": "2025-11-02T14:57:41.093Z"
+    },
+    {
+      "id": "1762095461138",
+      "userId": "1760973411939",
+      "originalName": "script.js",
+      "storedName": "1762095461132-script.js",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1762095461132-script.js",
+      "size": 15340,
+      "type": ".js",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-11-02T14:57:41.138Z",
+      "modifiedAt": "2025-11-02T14:57:41.138Z"
+    },
+    {
+      "id": "1762095461173",
+      "userId": "1760973411939",
+      "originalName": "style.css",
+      "storedName": "1762095461168-style.css",
+      "path": "D:\\university\\IT\\miniGoogleDrive\\server\\uploads\\1762095461168-style.css",
+      "size": 883,
+      "type": ".css",
+      "uploadedBy": "DASHA",
+      "editedBy": "DASHA",
+      "createdAt": "2025-11-02T14:57:41.173Z",
+      "modifiedAt": "2025-11-02T14:57:41.173Z"
     }
   ]
 }
